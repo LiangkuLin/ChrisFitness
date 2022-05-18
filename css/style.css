@@ -1,0 +1,1454 @@
+/****************************************** global ID and class******************************************/
+
+/************** header part ****************/
+/*Global*/
+/* Head Navigation - Start */
+#logo{
+    float: left;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-color:rgb(255, 81, 0);
+    border-style: solid;
+}
+#contactLogo{
+    color: whitesmoke;
+    font-size: 30px;
+    float: right;
+    width: 20%;
+    height: 35%;
+    background-color: rgb(197, 33, 4);
+    text-align:center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style: double;
+}
+
+/*nav{
+    margin-right: 20px;
+    text-align: right;
+}
+*/
+
+.headerNavigation{
+    font-size: 1vw;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#referToContactInformation{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.836);
+    background-repeat: repeat;
+    height: auto; 
+    padding-top: 10px;
+}
+
+/* Head Navigation Table - Start */
+
+#headNavigationTable{
+	position: center;
+	padding: 0px;
+}
+
+#headNavigationTd{
+	width:auto;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+
+/* Head Navigation Table - End */
+
+/* Head Navigation Drop List - Start */
+
+.globalNavigation{
+    position: relative;
+  display: inline-block;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 145px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.836);
+    z-index: 1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-top: 9px; */
+
+  }
+
+  .dropbtn {
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+    z-index: -1;
+  }
+  
+
+  .dropdown-content a {
+    color: rgba(0, 0, 0, 0.836);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover  {background-color: rgba(0, 0, 0, 0.836)l}
+
+
+  .dropDownNavigation{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/* Head Navigation Drop List - End */
+/* Head Navigation - End */
+
+
+/* ********************************************************************************************************** */
+
+
+/* Footer Navigation Page - Start */
+footer{
+    background-color: rgba(3, 3, 3, 0.904);
+    color: whitesmoke;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.footerAnchor{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns:0.3fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+} 
+
+.footerBox1{
+    grid-column: 2/3;
+ }
+ .footerBox2{
+     grid-column: 3/4;
+ }
+
+.FooterOrderlist{
+    list-style:none;
+    line-height: 50px;
+}
+
+#fbLogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#InstagrameLogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#footerPhonenumber{
+    font-size:14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Footer Navigation Page - End */
+
+/* ********************************************************************************************************** */
+
+/* Local Navigation Page - Start */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.904);
+}
+
+
+.bodyWithLocalNavigationGrid{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: auto;
+    margin-top:30px ;
+}
+.localNavagationCell{
+    grid-column: 1/2;
+    grid-row: 1;
+    border: rgba(0, 0, 0, 0.623);
+    border-style:solid;
+    line-height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 40px;
+}
+
+.bodyPartCell{
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+.LocalNavigationInvisibleList{
+    list-style: none;
+}
+
+
+.localNavigation{
+    color: black;
+    text-decoration: none;
+}
+
+/* Local Navigation Page - End */
+
+
+h1{
+    font-size: 3vw;
+    padding-left: 5px;
+}
+/**h2{
+    margin-left: 40px;
+}
+h3{
+    margin-left: 40px;
+}
+*/
+
+/* ********************************************************************************************************** */
+
+/* Intro Muay Thai Page - Start */
+#introMuayThaiImage{
+    width: 100%;
+    text-align: center;
+}
+
+#fb_ig_icon{
+    width:50px;
+    height: 50px;
+}
+
+/**new*/
+
+
+.introMuayThiaBody{
+    background-image: url("../images/introMuayThai/introMuayThiaBackground.png");
+    /* background-position: center; */
+    
+}
+
+.introMuayThaiImage{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.accordion {
+  width: 800px;
+  margin: 90px auto;
+  color: black;
+  background-color: rgb(248, 197, 164);
+  padding: 45px 45px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  
+}
+
+
+.accordion .content {
+  position: relative;
+  background: rgb(248, 197, 164);
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+#introMuayThaiContentCell1{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#introMuayThaiContemtCell2{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+
+
+.accordion .container.active .content {
+  height:auto;
+}
+
+
+
+/* Intro Muay Thai Page Page - End */
+
+/* ********************************************************************************************************** */
+
+/* Impotant of Health Navigation Page - Start */
+
+.impotantOfHealthTxt{
+    line-height: 35px;
+}
+
+#importantOfHealthImg{
+    width: 100%;
+    height: auto;
+}
+
+/* Impotant of Health Navigation Page - End */
+
+
+/* ********************************************************************************************************** */
+
+/* Body Fat Calculator Page Page - Start */
+
+.BodyFatCalculatorGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.BodyFatCalculationCell{
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+
+.BodyFatcalCulatorTableCell{
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+
+
+.DisplayBFPCell{
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-style: solid;
+}
+
+.bodyFatTable{
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+}
+
+.bodyFatTableHeader,.bodyFatTableData{
+    border-style: solid;
+}
+
+.captionBFP{
+    caption-side:top;
+    text-align: left;
+    font-size: 15px;
+}
+
+.textBoxBF{
+    width: auto;
+}
+
+/* Body Fat Calculator Page Page - End */
+
+
+/* ********************************************************************************************************** */
+
+/* Common - Start*/
+
+/* alignment */
+.center{
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/* color */
+.whitesmoke{
+	color:whitesmoke;
+}
+
+/* Font*/
+.fontfamily{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Common - End */
+
+
+
+
+
+
+
+
+/* ************************************ New ******************************************* */
+
+/* MuayThaiCompetition Page - Start */
+
+.MuayThaiCompetitionContentGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    line-height: 25px;
+    grid-gap: 50px;
+    margin-top: 30px;
+}
+.MuayThaiCompetitionContentCell1{
+    grid-column: 1/2;
+    grid-row: 1;
+    background-size: cover;
+    padding-top: 30px;
+}
+.MuayThaiCompetitionContentCell2{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#MuayThaiCompetitionPoster{
+    width: 500px;
+    height: auto;
+}
+
+
+/* MuayThaiCompetition Page - End */
+
+/* ********************************************************************************************************** */
+
+/* CompetitionAlbum Page - Start */
+
+.CompetitionPicGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.CompetitionPicLargeCell{
+    grid-column: 1/8;
+    grid-row: 1;
+    margin: auto;
+}
+.CompetitionPicSmallCell1{
+    grid-column: 1/2;
+    grid-row: 2;    
+    margin: auto;
+   
+}
+.CompetitionPicSmallCell2{
+    grid-column: 2/3;
+    grid-row: 2;
+    margin:  auto;
+    
+}
+.CompetitionPicSmallCell3{
+    grid-column: 3/4;
+    grid-row: 2;
+    margin: auto;
+}
+.CompetitionPicSmallCell4{
+    grid-column: 4/5;
+    grid-row: 2;
+    margin: auto;
+    
+    
+}
+.CompetitionPicSmallCell5{
+    grid-column:5/6;
+    grid-row: 2;
+    margin: auto;
+}
+.CompetitionPicSmallCell6{
+    grid-column: 6/7;
+    grid-row: 2;
+    margin: auto;
+}
+.CompetitionPicSmallCell7{
+    grid-column: 7/8;
+    grid-row: 2;
+    margin: auto;
+}
+.CompetitionSmallPiceSize{
+    width: 8vw;
+    height: 100px;
+    border-radius: 5px;
+    margin: auto ;
+}
+
+#CopetitionAlbumIframe{
+    height:70vh;
+    width: 70vw;
+    margin-top: 30px;
+}
+
+
+/* CompetitionAlbum Page - End */
+
+
+/* ********************************************************************************************************** */
+
+/*Promotion Page - Start*/
+
+#PromotionHeader{
+    margin-left: 40px;
+}
+
+#PromotionQuestion{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#ff8522;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.Intendation{
+    margin-left: 40px;
+}
+
+.midLocation{
+    text-align: center;
+}
+
+#promotionImage{
+    height: 500px;
+    width: auto;
+}
+
+
+/*Promotion Page - End*/
+
+
+/* ********************************************************************************************************** */
+
+/* BMI Calculator Page Page - Start */
+
+#BMIimage{
+	width: 300px;
+	height: auto;
+}
+
+#img_BMI_gender{
+	width: 30px;
+	height: auto;
+}
+
+#img_BMI_height{
+	width: 30px;
+	height: auto;
+}
+
+#img_BMI_weight{
+	width: 30px;
+	height: auto;
+}
+
+#img_BMI_1{
+	width: 600px;
+	height: auto;
+}
+
+#BMIGrid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.BMI_box1 {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.BMI_box2 {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.BMI_box3 {
+	grid-row: 2;
+    grid-column: 1/2;
+}
+
+.BMI_box4 {
+    grid-row: 2;
+    grid-column: 2/4;    
+}
+
+.BMI_lable{
+	font-size: 25px;
+	height: auto;
+}
+
+#BMI_Weight{
+	width: 50%;
+	border: 2px solid white;
+  	border-radius: 4px;
+  	height: 30px;
+  	background-color: transparent;
+  	text-align: center;
+  	font-size: 20px;
+}
+
+#BMI_Height{
+	width: 50%;
+	border: 2px solid white;
+  	border-radius: 4px;
+  	height: 30px;
+  	background-color: transparent;
+  	text-align: center;
+  	font-size: 20px;
+}
+
+.BMI_table {
+    display: table;
+    border-spacing: 20px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #ffe75c;
+}
+
+.BMI_caption {
+    display: table-caption;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffcd05;
+    border-radius: 10px;
+}
+
+.BMI_row {display: table-row;}
+.BMI_row > * {
+    display: table-cell;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 18px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: lightblue;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px lightblue;
+}
+
+input:checked + .slider:before {
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#BMI_display{
+	font-size: 24px;
+	text-align: center;
+    color: #ff4800;
+}
+
+/* button style*/
+.BMI_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffad49;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #f3f3e5;
+}
+
+.BMI_button:hover {background-color: #f4740a;}
+
+.BMI_button:active {
+  background-color: #f4740a;
+  box-shadow: 0 3px #f3f3e5;
+  transform: translateY(4px);
+}
+
+
+/* BMI Calculator Page Page - End */
+
+
+/* ********************************************************************************************************** */
+
+
+/* contact Page - start */
+
+
+.contactPageBackgroundImg{
+    background-image: url("../images/ContactPage/contactBackgroundPic.jpg");  
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.midPosition{
+  text-align: center;
+}
+
+.contactPageGrid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows:auto ;
+} 
+
+.contactPageCell1{
+   grid-column: 2/3;
+   grid-row: 1;
+}
+
+.contactPageFormGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 20px;
+    /* grid-gap: 5px; */
+    color: rgb(128, 56, 6);
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-style: double;
+    width: inherit;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+
+.contactPageFormCell1{
+    grid-column: 1/2;
+    grid-row: 1;
+    
+}
+
+.contactPageFormCell2{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.contactPageFormCell3{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.contactPageFormCell4{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.contactPageFormCell5{
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.contactPageTextbox{
+    box-shadow: 3px 3px;    
+    color: rgb(119, 55, 9);
+    width: 200px;
+    height: 20px;
+} 
+
+.messageTextBox{
+    color: rgb(119, 55, 9); 
+    height: 300px;
+    width: 70%;
+    border-radius: 10px;
+    border:groove 2px;
+    border-color: rgb(119, 55, 9);
+    padding: 5px;
+}
+
+#inputForm{
+    text-align: center;
+}
+
+#contactPageSubmit{
+    border-color:rgb(119, 55, 9);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(119, 55, 9);
+    border-radius: 3px;
+}
+
+#contactPageSubmit:hover{
+    background-color: white;
+}
+
+#contactPageSubmit:active{
+    background-color: gray;
+    color: white;
+}
+
+#contactPageTitle{
+    color: white;
+    font-style: italic;
+}
+
+.optionsBoxSize{
+    /*width: 100px;
+    height: 25px;*/
+    box-shadow: 3px 3px;    
+    color: rgb(119, 55, 9);
+    width: 200px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#addressInput{
+    box-shadow: 3px 3px;    
+    color: rgb(119, 55, 9); 
+    height: 40px;
+    width: 200px;
+    border:groove 2px;
+    border-color: rgb(119, 55, 9);
+}
+
+
+
+/******contact Page - End******/
+
+/* ********************************************************************************************************** */
+
+/**Group class Page - start**/
+.GC_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 10px;
+	}
+
+	.GC_box1 {
+	    grid-column: 1 / 4;
+	    grid-row: 1;
+	    font-size: 20px;
+	    background-image: url(../images/groupClass/groupFitness.jpg);
+	    background-size: cover;
+	    height: auto;
+	    width: 100%;
+	    max-width: 900px;
+	    z-index: -1;
+		opacity: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	#membership{
+		color: #ff8522;
+		text-decoration: none;
+		float: right;
+	}
+	
+	.color-white {
+	  color: #000000;
+	  background-color: #ffffff;
+	  width:600px;
+	  font-family:Verdana, Geneva, Tahoma, sans-serif;
+	  border: double;
+	  padding: 10px;
+	}
+
+	.GC_box8 {
+	    grid-column: 1;
+	    grid-row: 2;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+
+	.GC_box9 {
+	    grid-row: 2;
+	    grid-column: 2;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+	.GC_box10 {
+	    grid-row: 2;
+	    grid-column: 3;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+	
+	.GC_box2 {
+	    grid-column: 1;
+	    grid-row: 3;
+	    text-align: center;
+	}
+
+	.GC_box3 {
+	    grid-row: 3;
+	    grid-column: 2;
+	    text-align: center;
+	}
+	.GC_box4 {
+	    grid-row: 3;
+	    grid-column: 3;
+	    text-align: center;
+	}
+	
+	.GC_box11 {
+	    grid-column: 1;
+	    grid-row: 4;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+
+	.GC_box12 {
+	    grid-row: 4;
+	    grid-column: 2;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+	.GC_box13 {
+	    grid-row: 4;
+	    grid-column: 3;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	}
+	
+	.GC_box5 {
+	    grid-column: 1;
+	    grid-row: 5;
+	    text-align: center;
+	}
+
+	.GC_box6 {
+	    grid-row: 5;
+	    grid-column: 2;
+	    text-align: center;
+	}
+	.GC_box7 {
+	    grid-row: 5;
+	    grid-column: 3;
+	    text-align: center;
+	}
+	
+	.GC_box14 {
+	    grid-row: 6;
+	    grid-column: 1/4;
+	    text-align: center;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 36px;
+	    color: #ff8522;
+	}
+	.GC_box15 {
+	    grid-row: 8;
+	    grid-column: 1/2;
+	    text-align: center;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	    color: #ff8522;
+	    border: 3px solid black;
+	    width: 100%;
+	}
+	.GC_box16 {
+	    grid-row: 8;
+	    grid-column: 2/3;
+	    text-align: center;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	    color: #ff8522;
+	    border: 3px solid black;
+	    width: 100%;
+	}
+	.GC_box17 {
+	    grid-row: 8;
+	    grid-column: 3/4;
+	    text-align: center;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 28px;
+	    color: #ff8522;	
+	    border: 3px solid black;
+	    width: 100%;    
+	}
+	.GC_box18 {
+	    grid-row: 7;
+	    grid-column: 1/4;
+	    text-align: left;
+	    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 26px;
+	    color: #ffaa00;	  
+	    background-image:url("../images/groupClass/membership.jpg");  
+	    background-size: cover;
+	    /*height: 300px;
+	    width: 1280px;*/
+	    height: auto;
+	    width: 100%;
+	    max-width: 900px;
+	    z-index: -1;
+		opacity: 1;
+		display: flex;
+		/*align-items: center;
+		justify-content: center;*/
+		padding-left: 15px;
+	}
+	
+	/* Free Trail Label*/
+	#GC_free{
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: #ff8692;
+	   color: #ffffff;
+	   text-align: center;
+	   font-size: 24px;
+	   font-family:Verdana, Geneva, Tahoma, sans-serif;
+	   padding-top: 10px;
+	   padding-bottom: 10px; 
+	}
+	#GC_free a{
+		text-decoration: none;
+		color: #ffffff;
+	}
+	#GC_free a:hover{
+		text-decoration: none;
+		color: red;
+	}
+	
+	#img_boxing, #img_pilates, #img_trx, #img_weightLifting, #img_yoga, #img_stretch{
+		height:auto;
+		width: 300px;
+	}
+	
+	.container {
+		position: relative;	  	
+	}
+
+	.overlay {
+		position: absolute;
+	  	top: 0;
+	  	bottom: 0;
+	  	left: 0px;
+	  	right: 0;
+	  	height: auto;
+	  	width: 100%;
+	  	opacity: 0;
+	  	transition: .5s ease;
+	  	background-color: #FFFFFF;
+	}
+
+	.container:hover .overlay {
+	  opacity: 1;
+	}
+
+	.text {
+	  	color: blue;
+	  	font-size: 10px;
+	  	position: absolute;
+	  	left: 5%;
+        right: 5%;
+	  	text-align: center;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	#GC_hr_1{
+    	border: 0;
+    	height: 1px;
+    	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+	
+	#img_GC_elite, #img_GC_basic, #img_GC_class{
+		width:60px;
+		height: 60px;
+		/*border-radius: 50%;
+		border: 2px solid black;*/
+	}
+
+    /**Group class Page - End**/
+
+/* ********************************************************************************************************** */
+
+    /** Program / Course Introduction - Start **/
+    .programIntroGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+    .programIntroCell1{
+        grid-column: 1/2;
+        grid-row: 1;  
+    }
+    .programIntroCell2{
+        grid-column: 2/3;
+        grid-row: 1;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 20px;
+    }
+    .programIntroCell3{
+        grid-column: 2/3;
+        grid-row: 2;
+        margin-top: 40px;
+        text-align: center;
+    
+    }
+    .programIntroCell4{
+        grid-column: 1/2;
+        grid-row: 2;
+        margin-top: 40px;
+        text-align: center;
+    
+    }
+    .programIntroImg{
+        width:100%;
+        height:100%;
+    }
+
+     #myframe{
+      width:100%;
+      height:90%;
+    } 
+    /** Program / Course Introduction - END **/
+
+
+/* ********************************************************************************************************** */
+
+/***Introduction of Chris Fitness Page - start***/
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto 5px;
+	grid-gap: 3px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box17{
+	grid-row: 1;
+	grid-column: 1/5;
+	color: #000000;
+	font-size: 2.8vw;
+	text-align: center;
+	padding: 15px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1 {
+	grid-column: 1;
+	grid-row: 2;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ffa75e;
+}
+.box5 {
+	grid-row: 2;
+	grid-column: 2;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ff5c0b;
+}
+.box6 {
+	grid-row: 2;
+	grid-column: 3;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ffa75e;
+}
+.box13 {
+	grid-row: 2;
+	grid-column: 4;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ff5c0b;
+}
+.box2 {
+	grid-column: 1;
+	grid-row: 3;
+	align-content: center;
+	background-color: #ffa75e;
+	color: #ffffff;
+}
+.box3 {
+	grid-row: 3;
+	grid-column: 3;
+	align-content: center;
+	background-color: #ffa75e;
+	color: #ffffff;
+}
+.box4 {
+	grid-row: 3;
+	grid-column: 2;
+	align-content: center;
+	background-color: #ff5c0b;
+	color: #ffffff;
+}
+.box14 {
+	grid-row: 3;
+	grid-column: 4;
+	align-content: center;
+	background-color: #ff5c0b;
+	color: #ffffff;
+}
+.box7{
+	grid-row: 4;
+	grid-column: 1;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ffa75e;
+}
+.box8{
+	grid-row: 4;
+	grid-column: 2;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ff5c0b;
+}
+.box9{
+	grid-row: 4;
+	grid-column: 3;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ffa75e;
+}
+.box15{
+	grid-row: 4;
+	grid-column: 4;
+	background-color: #ffffff;
+	opacity: 0.8;
+	color: #ff5c0b;
+}
+.box10{
+	grid-row: 5;
+	grid-column: 1;
+	background-color: #ffa75e;
+}
+.box11{
+	grid-row: 5;
+	grid-column: 2;
+	background-color: #ff5c0b;
+}
+.box12{
+	grid-row: 5;
+	grid-column: 3;
+	background-color: #ffa75e;
+}
+.box16{
+	grid-row: 5;
+	grid-column: 4;
+	background-color: #ff5c0b;
+}
+
+.div1
+{
+	font-size: 1.15vw;
+	text-align: center;
+	padding-top: 15px;
+}
+.div2
+{
+	text-align: center;
+	padding-top: 0px;
+}
+
+#img_cf_2, #img_cf_3, #img_cf_4, #img_cf_5
+{
+	width: 100%;
+	
+}
+
+/***Introduction of Chris Fitness Page - End***/
+
+/* ********************************************************************************************************** */
+
+/***Index Page - start***/
+
+
+#in_body{
+	background-color: #000000;
+	background-size: cover;
+	z-index: -1
+}
+#in_video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#in_h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffca0b;
+  text-transform: uppercase;
+  letter-spacing: 3vw;
+  line-height: 1.2;
+  font-size: 3vw;
+  text-align: center;
+  span {
+    display: block;
+    font-size: 10vw;
+    letter-spacing: -1.3vw;
+  }
+}
+#index_span1{
+	text-decoration: underline;
+}
+#index_span1 a{
+	text-decoration: none;
+	color: #ffca0b;
+}
+
+
+/***Index Page - End***/
+
+/* ********************************************************************************************************** */
+
+/*** Personal Training Page - start***/
+#pt_container{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		grid-gap: 15px;
+		font-size: 24px;
+		
+	}
+	#pt_box3{
+		grid-row: 1;
+		grid-column: 1/6;
+		font-size: 1.3rem;
+	}
+	#pt_box1{
+		grid-row: 2;
+		grid-column: 1/4;
+		
+	}
+	#pt_box2{
+		grid-row: 2;
+		grid-column: 4/6;
+		font-size:  1rem;
+		margin: auto;
+	}
+	#img_pt_service{
+		width: 100%;
+	}
+
+/***Personal Training Page - End***/
+
+/* ********************************************************************************************************** */
+
+/*** Page - start***/
