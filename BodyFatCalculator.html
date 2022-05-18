@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Body Fat Calculator</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!----------------- header part & global navigation------------------->
+		<header>
+			<a href="introChrisFitness.html"><img src="images/HeaderLogo/logo.jpeg" id="logo" alt="Company Logo"/></a>
+			<br />
+			<div id="contactLogo">
+				<a id="referToContactInformation" href="contactPage.html"> CONTACT US</a>
+			</div>
+			<br><br><br><br>
+			
+						<table id="headNavigationTable" class="center whitesmoke">
+			<tr>
+				<td id="headNavigationTd"><a class="headerNavigation" href="introChrisFitness.html">Introduction of Chris Fitness</a></td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+					<button class="dropbtn">
+						<a class="headerNavigation" href="programIntro.html">Program / Course Introduction</a>
+					</button>
+
+					<div class="dropdown-content">
+						<a class="dropDownNavigation" href="PersonalTraining.html">Personal Training</a>
+						<a class="dropDownNavigation" href="GroupClass.html">Group Class</a>
+						<a class="dropDownNavigation" href="ProgramAlbum.html">See More..</a>
+					</div>
+				</div>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+					<button class="dropbtn">
+						<a class="headerNavigation" href="MuayThaiCompetition.html">Muay Thai Competition</a></button>
+					<div class="dropdown-content">
+						<a class="dropDownNavigation" href="CompetitionAlbum.html">See More..</a>
+					</div>
+				</div>
+				</td>
+				<td>|</td>
+				<td id="headNavigationTd">
+					<a class="headerNavigation" href="introMuayThai.html">Introduction of Muay Thai</a>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+						<button class="dropbtn">
+							<a class="headerNavigation" href="importantOfHealth.html">Important of health</a>
+						</button>
+						<div class="dropdown-content">
+							<a class="dropDownNavigation" href="BMICalculator.html">BMI Calculator</a>
+							<a class="dropDownNavigation" href="BodyFatCalculator.html ">Body Fat Calculator</a>
+						</div>
+					</div>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<a class="headerNavigation" href="promotion.html">Promotion</a>
+				</td>
+			</tr>
+			</table>
+
+			
+			
+		</header>
+		<!------------------------------ Banner ------------------------------>
+		<img id="introMuayThaiImage" src="images/importantOfHealth/impotantOfHealthBanner.jpg" alt=""/>
+		
+		<!------------------------------ body--------------------------------->
+		<!--navigation-->
+		<div class="bodyWithLocalNavigationGrid">
+			<div class="localNavagationCell">
+				<ol class="LocalNavigationInvisibleList">
+					<li>
+						<a href="importantOfHealth.html" class="localNavigation">Important of Health</a>
+					</li>
+					<hr />
+					<li>
+						<a href="BMICalculator.html" class="localNavigation">BMI Calculator</a>
+					</li>
+					<hr />
+					<li>
+						<a href="BodyFatCalculator.html" class="localNavigation">Body Fat Calculator</a>
+					</li>
+					<hr />
+				</ol>
+			</div>
+			<!--text-->
+			<div class="bodyPartCell">
+				<h1>Body Fat Calculator</h1>
+				<div class="BodyFatCalculatorGrid">
+					<div class="BodyFatCalculationCell">
+						<form>
+							<ul>
+								<input type="radio" name="sexBFP" id="MaleBFP" />Male &nbsp
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								<input type="radio" name="sexBFP" id="FemaleBFP" />Female
+								<br />
+								<li>Your age: &nbsp &nbsp &nbsp &nbsp  <input type="number" id="ageBFP" class="textBoxBFP"/></li>
+								<li>
+									Height (cm):&nbsp &nbsp<input type="number" id="heightBFP" class="textBoxBFP" />
+								</li>
+								<li>Weight (kg): &nbsp &nbsp<input type="number" id="weightBFP" class="textBoxBFP" /></li>
+								<li>
+									Neck (cm): &nbsp &nbsp &nbsp <input type="number" id="neckBFP" class="textBoxBFP" />
+								</li>
+								<li>
+									Waist (cm): &nbsp &nbsp &nbsp<input type="number" id="waistBFP" class="textBoxBFP" />
+								</li>
+								<li>
+									hip (cm): &nbsp &nbsp &nbsp &nbsp &nbsp <input
+									type="number"
+									id="hipBFP"
+									/>
+								</li>
+								<input type="reset" value="Reset"/>
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+								<input type="button" id="getBFP" value="Get BFP" />
+							</ul>
+						</form>
+					</div>
+					<div class="BodyFatcalCulatorTableCell">
+						<table class="bodyFatTable">
+							<tr class="bodyFatTableRow">
+								<th class="bodyFatTableHeader">Description</th>
+								<th class="bodyFatTableHeader">Women</th>
+								<th class="bodyFatTableHeader">Men</th>
+							</tr>
+							<tr class="bodyFatTableRow">
+								<td class="bodyFatTableData">Essential thin</td>
+								<td class="bodyFatTableData">10-13%</td>
+								<td class="bodyFatTableData">2-5%</td>
+							</tr>
+							<tr class="bodyFatTableRow">
+								<td class="bodyFatTableData">Athletes</td>
+								<td class="bodyFatTableData">14-20%</td>
+								<td class="bodyFatTableData">6-13%</td>
+							</tr>
+							<tr class="bodyFatTableRow">
+								<td class="bodyFatTableData">Fitness</td>
+								<td class="bodyFatTableData">21-24%</td>
+								<td class="bodyFatTableData">14-17%</td>
+							</tr>
+							<tr class="bodyFatTableRow">
+								<td class="bodyFatTableData">Average</td>
+								<td class="bodyFatTableData">25-31%</td>
+								<td class="bodyFatTableData">18-24%</td>
+							</tr>
+							<tr class="bodyFatTableRow">
+								<td class="bodyFatTableData">Obese</td>
+								<td class="bodyFatTableData">32+</td>
+								<td class="bodyFatTableData">25+</td>
+							</tr>
+							<caption class="captionBFP">
+								The American Council on Exercise Body Fat Categorization
+							</caption>
+						</table>
+					</div>
+					<div class="DisplayBFPCell">
+						<p id="DisplayBFP"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------------------------------------------------------------>
+
+		<!------------------------------ footer ----------------------------->
+		<footer>
+			<div class="footerGrid">
+				<div class="footerBox1">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="introChrisFitness.html" class="footerAnchor">@ Introduction of Chris Fitness</a>
+						</li>
+						<li>
+							<a href="programIntro.html" class="footerAnchor">@ Program / Course Introduction</a>
+						</li>
+						<li>
+							<a href="MuayThaiCompetition.html" class="footerAnchor">@ Muay Thai Competition</a>
+						</li>
+					</ol>
+				</div>
+				<div class="footerBox2">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="introMuayThai.html" class="footerAnchor">@ Introduction of Muay Thai</a>
+						</li>
+						<li>
+							<a href="importantOfHealth.html" class="footerAnchor">@ Important of Health</a>
+						</li>
+						<li>
+							<a href="promotion.html" class="footerAnchor">@ Promotion</a>
+						</li>
+					</ol>
+				</div>
+				<div class="footerBox3">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="https://www.facebook.com/chrispoonfitness" target="_blank">
+								<img src="images/FooterLogo/FBICon.png" id="fbLogo" alt="Facebook Logo"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://instagram.com/emperorvamp?utm_medium=copy_link" target="_blank">
+								<img src="images/FooterLogo/instagrameLogo.jpg" id="InstagrameLogo" alt="Instagrem Logo"/>
+							</a>
+						</li>
+						<li>
+							 <a href="https://wa.me/12369656056" id="footerPhonenumber" target="_blank">## Phone number: +1(236)965-6056</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</footer>
+		<!------------------------------------------------------------------------>
+
+		<script src="script/bodyFatCalScript.js"> </script>
+	</body>
+</html>

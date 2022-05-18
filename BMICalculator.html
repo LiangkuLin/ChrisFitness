@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<style>
+	</style>
+	<body>
+		<!----------------- header part & global navigation------------------->
+		<header>
+			<a href="introChrisFitness.html"><img src="images/HeaderLogo/logo.jpeg" id="logo" alt="Company Logo"/></a>
+			<br />
+			<div id="contactLogo">
+				<a id="referToContactInformation" href="contactPage.html"> CONTACT US</a>
+			</div>
+			<br><br><br><br>
+			
+						<table id="headNavigationTable" class="center whitesmoke">
+			<tr>
+				<td id="headNavigationTd"><a class="headerNavigation" href="introChrisFitness.html">Introduction of Chris Fitness</a></td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+					<button class="dropbtn">
+						<a class="headerNavigation" href="programIntro.html">Program / Course Introduction</a>
+					</button>
+
+					<div class="dropdown-content">
+						<a class="dropDownNavigation" href="PersonalTraining.html">Personal Training</a>
+						<a class="dropDownNavigation" href="GroupClass.html">Group Class</a>
+						<a class="dropDownNavigation" href="ProgramAlbum.html">See More..</a>
+					</div>
+				</div>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+					<button class="dropbtn">
+						<a class="headerNavigation" href="MuayThaiCompetition.html">Muay Thai Competition</a></button>
+					<div class="dropdown-content">
+						<a class="dropDownNavigation" href="CompetitionAlbum.html">See More..</a>
+					</div>
+				</div>
+				</td>
+				<td>|</td>
+				<td id="headNavigationTd">
+					<a class="headerNavigation" href="introMuayThai.html">Introduction of Muay Thai</a>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<div class="dropdown">
+						<button class="dropbtn">
+							<a class="headerNavigation" href="importantOfHealth.html">Important of health</a>
+						</button>
+						<div class="dropdown-content">
+							<a class="dropDownNavigation" href="BMICalculator.html">BMI Calculator</a>
+							<a class="dropDownNavigation" href="BodyFatCalculator.html ">Body Fat Calculator</a>
+						</div>
+					</div>
+				</td>
+				<td>|</td>
+				<td id= "headNavigationTd">
+					<a class="headerNavigation" href="promotion.html">Promotion</a>
+				</td>
+			</tr>
+			</table>
+
+			
+			
+		</header>
+		
+		<!------------------------------ Banner ------------------------------>
+		<img id="introMuayThaiImage" src="images/importantOfHealth/impotantOfHealthBanner.jpg" alt=""/>
+		
+		<!------------------------------ body--------------------------------->
+		<!--navigation-->
+		<div class="bodyWithLocalNavigationGrid">
+			<div class="localNavagationCell">
+				<ol class="LocalNavigationInvisibleList">
+					<li>
+						<a href="importantOfHealth.html" class="localNavigation">Important of Health</a>
+					</li>
+					<hr />
+					<li>
+						<a href="BMICalculator.html" class="localNavigation">BMI Calculator</a>
+					</li>
+					<hr />
+					<li>
+						<a href="BodyFatCalculator.html" class="localNavigation">Body Fat Calculator</a>
+					</li>
+					<hr />
+				</ol>
+			</div>
+			<!--text-->
+			<div class="bodyPartCell">
+				<h1>BMI Calculator</h1>
+				<br>
+				<div id="BMIGrid">
+					<div class="BMI_box1"><img id="BMIimage" src="images/importantOfHealth/bMICalculator/BMI.jpg" alt="BMI"/></div>
+					<div class="BMI_box2">
+						<p>
+							<h2>What is BMI?</h2>
+							<b>Body mass index (BMI)</b> is the most commonly used measure that uses your height and weight to work out if your weight is healthy.<br>
+							For adults, an ideal BMI is in the 18.5 to 24.9 range.<br>
+							Fill in the following information to find out!
+						</p>
+					</div>
+					<div class="BMI_box3 center">
+						<div class="BMI_table">
+					  		<div class="BMI_caption">BMI Calculator</div>
+					  		<form>
+					  			<div class="BMI_row">
+					    			<span>
+						    			<label class="BMI_lable">Female</label>
+										<label class="switch">
+										  <input type="checkbox" id="BMI_gender">
+										  <span class="slider round"></span>
+										</label>
+										<label class="BMI_lable">Male</label>
+					    			</span>
+					  			</div>
+						  		<div class="BMI_row">
+						    		<span>
+						    			<img src="images\importantOfHealth\bMICalculator\Weight.png" id="img_BMI_weight" alt="Weight">
+										<label class="BMI_lable"><b>Weight:</b></label><br>
+										<input type="number" id="BMI_Weight" min="0" max="999" value=""> KG
+									</span>
+						 		</div>
+						  		<div class="BMI_row">
+						    		<span>
+						    			<img src="images\importantOfHealth\bMICalculator\height.png" id="img_BMI_height" alt="Height">
+						    			<label class="BMI_lable"><b>Height:</b></label><br>
+						    			<input type="number" id="BMI_Height" min="0" max="999" value=""> CM
+						    		</span>
+						  		</div>
+						  		<div class="BMI_row">
+						    		<span>
+						    			<!--<input type="reset" id="BMI_reset" class="BMI_button" value="Reset" /> &nbsp &nbsp-->
+						    			<input type="button" id="BMI_submit" class="BMI_button" value="Check it Out" />
+						    		</span>
+						 		</div>	
+						 	</form>
+						</div>
+					</div>
+					<div class="BMI_box4 center">
+						<img src="images\importantOfHealth\bMICalculator\Female.jpg" id="img_BMI_1" alt="BMI Result Female">
+						<p id="BMI_display"></p>
+					</div>
+				
+				</div>
+				
+				<div>
+					<div >
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------------------------------------------------------------>
+
+		<!------------------------------ footer ----------------------------->
+		<footer>
+			<div class="footerGrid">
+				<div class="footerBox1">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="introChrisFitness.html" class="footerAnchor">@ Introduction of Chris Fitness</a>
+						</li>
+						<li>
+							<a href="programIntro.html" class="footerAnchor">@ Program / Course Introduction</a>
+						</li>
+						<li>
+							<a href="MuayThaiCompetition.html" class="footerAnchor">@ Muay Thai Competition</a>
+						</li>
+					</ol>
+				</div>
+				<div class="footerBox2">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="introMuayThai.html" class="footerAnchor">@ Introduction of Muay Thai</a>
+						</li>
+						<li>
+							<a href="importantOfHealth.html" class="footerAnchor">@ Important of Health</a>
+						</li>
+						<li>
+							<a href="promotion.html" class="footerAnchor">@ Promotion</a>
+						</li>
+					</ol>
+				</div>
+				<div class="footerBox3">
+					<ol class="FooterOrderlist">
+						<li>
+							<a href="https://www.facebook.com/chrispoonfitness" target="_blank">
+								<img src="images/FooterLogo/FBICon.png" id="fbLogo" alt="Facebook Logo"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://instagram.com/emperorvamp?utm_medium=copy_link" target="_blank">
+								<img src="images/FooterLogo/instagrameLogo.jpg" id="InstagrameLogo" alt="Instagrem Logo"/>
+							</a>
+						</li>
+						<li>
+							 <a href="https://wa.me/12369656056" id="footerPhonenumber" target="_blank">## Phone number: +1(236)965-6056</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</footer>
+		<!------------------------------------------------------------------------>
+
+		<script src="script/BMICalScript.js"> </script>
+	</body>
+</html>
