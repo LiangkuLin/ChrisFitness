@@ -1,3 +1,9 @@
 # 1280_FinalProject
-This is the project in class 1280. 
-It is a web application created for gym. 
+
+## About the app
+This is a project for CSIS1280 - MULTIMEDIA WEB DEVELOPMENT\
+Project's name: ChrisFitness\
+Skills: HTML, CSS, JavaScript\
+Description: A website for advertising and introduncing Muay Thai gym
+
+
